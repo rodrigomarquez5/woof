@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgba(93, 58, 223, 0.411);
+}
+
+
+h1 {
+    display: flex;
+    color: rgb(66, 6, 176);
+    font-family: serif;
+    font-size: 55px;
+}
+
+
+h2 {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(38, 4, 65);
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    display: flex;
+    color: rgb(38, 4, 65);
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h4 {
+    display: flex;
+    color: rgb(38, 4, 65);
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.pasosaSeguir {
+    padding: 50px;
+    margin: 0 520px;
+    border-style: solid;
+    color: rgb(88, 0, 100);
+    background-color: bisque;
+    width: 500px;
+    display: grid;
+    gap: 20px 20px;
+    grid-template-columns: 100px;
+    grid-template-rows: 50px 50px 50px 50px;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pasosaSeguir__selec{
+    display: grid;
+    font-size: 20px;
+    align-items: center;
+}
+
+.pasosaSeguir__cant{
+    display: grid;
+    font-size: 20px;
+    align-items: center;
+}
+
+.pasosaSeguir__envio{
+    display: grid;
+    font-size: 20px;
+    align-items: center;
+}
+
+.pasosaSeguir__abona{
+    display: grid;
+    font-size: 20px;
+    align-items: center;
+}
+
+
+.boton {
+    text-decoration: none;
+    background-color: blanchedalmond;
+    font-weight: 800;
+    font-size: larger;
+    margin-top: 100px;
+    padding: 0 20px;
+    text-decoration: none;
+    width: fit-content;
+    border: hidden rgba(255, 235, 205, 0.692) 3px;
+}
+
+.botonConocenos {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+
+
+.redes {
+    display: flex;
+    align-items: center;
+}
+
+.redes__ig {
+    padding: 150px;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 150px;
+}
+
+
+.redes__fb {
+    padding: 150px;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+.logoPrincipal {
+    width: 600px;
+    height: 500px;
+    margin: 0 150px;
+    padding: 200px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.linksPaginas {
+    top: 30px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: blanchedalmond;
+}
+
+.imagenMarca {
+    padding: 150px;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    width: 250px;
+}
+
+.descQuienes {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.mision {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.vision {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.listaContactos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-style: solid;
+    color: rgb(88, 0, 100);
+    background-color: bisque;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.listaHorarios {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-style: solid;
+    color: rgb(88, 0, 100);
+    background-color: bisque;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.descContacto {
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.sugerenciaTransp {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-style: solid;
+    color: rgb(88, 0, 100);
+    background-color: bisque;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+.whatsapp {
+    width: 80px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+.galeriaPerro {
+    padding: 50px;
+    width: 300px;
+    height: 300px;
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.galeriaPerro__uno {
+    margin: 0 25px;
+}
+
+.galeriaPerro__dos {
+    margin: 0 25px;
+}
+
+.galeriaPerro__tres {
+    margin: 0 25px;
+}
+
+.galeriaPerro__cuatro {
+    margin: 0 25px;
+}
+
+.galeriaPerro__cinco {
+    margin: 0 25px;
+}
+
+.galeriaGato {
+    padding: 50px;
+    width: 300px;
+    height: 300px;
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.galeriaGato__uno {
+    margin: 0 25px;
+}
+
+.galeriaGato__dos {
+    margin: 0 25px;
+}
+
+.galeriaGato__tres {
+    margin: 0 25px;
+}
+
+.galeriaGato__cuatro {
+    margin: 0 25px;
+}
+
+.galeriaGato__cinco {
+    margin: 0 25px;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 320px) {
+    body {
+        background-color: rgb(201, 196, 196);
+    }
+
+    .logoPrincipal {
+        width: 400px;
+        height: 400px;
+        padding: 200px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+
+    .linksPaginas {
+        flex-direction: column;
+        width: 200px;
+        font-size: 60px;
+        padding: 0 300px;
+    }
+
+    h1 {
+        justify-content: center;
+        align-items: center;
+        margin: 0 500px;
+        font-size: 100px;
+        padding: 100px;
+
+    }
+
+    .boton{
+        justify-content: center;
+        justify-items: center ;
+        width: 125px;
+        height: 125px;
+        padding: 60px;
+    }
+
+    .botonConocenos {
+        text-decoration: none;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    h2{
+        justify-content: center;
+        justify-items: center ;
+        align-items: center;
+        font-size: 40px;
+        margin: 0 300px;
+        padding: 80px;
+    }
+
+    h3{
+        font-size: 35px;
+        margin: 0 100px;
+        padding: 80px;
+    }
+
+    h4{
+        font-size: 30px;
+        padding: 50px;
+    }
+    
+    .pasosaSeguir{
+    font-size: 23px;
+    }
+
+    .imagenMarca{
+        width: 150px;
+        height: 150px;
+    }
+
+    .galeriaGato{
+        margin: 0 200px;
+    }
+
+    .galeriaPerro{
+        margin: 0 200px;
+    }
+
+}
