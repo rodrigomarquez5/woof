@@ -153,6 +153,7 @@ h4 {
     background-color: blanchedalmond;
 }
 
+
 .imagenMarca {
     padding: 150px;
     display: flex;
@@ -160,6 +161,8 @@ h4 {
     height: 250px;
     width: 250px;
 }
+
+
 
 .descQuienes {
     font-family: Georgia, 'Times New Roman', Times, serif;
