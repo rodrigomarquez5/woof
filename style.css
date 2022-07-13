@@ -92,6 +92,7 @@ h4 {
     text-decoration: none;
     width: fit-content;
     border: hidden rgba(255, 235, 205, 0.692) 3px;
+    transition: all 2s;
 }
 
 .botonConocenos {
@@ -99,8 +100,10 @@ h4 {
     font-size: 40px;
 }
 
-.botonConocenos:hover {
-    transform: scale(3);
+.boton:hover {
+    transform: scale(1,3);
+    transform: rotateY(360deg);
+    background-color: rgb(235, 220, 241);
 }
 
 
@@ -240,63 +243,55 @@ h4 {
 
 .galeriaPerro {
     padding: 50px;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     overflow-x: scroll;
     display: flex;
     flex-wrap: nowrap;
     margin: 0 auto;
 }
 
-.galeriaPerro__uno {
-    margin: 0 25px;
+
+.galeriaPerro img:hover{
+    transform: scale(2);
+    transition: all 3s;
 }
 
-.galeriaPerro__dos {
+.galeriaPerro img {
     margin: 0 25px;
+    transition: all 3s;
 }
 
-.galeriaPerro__tres {
-    margin: 0 25px;
-}
-
-.galeriaPerro__cuatro {
-    margin: 0 25px;
-}
-
-.galeriaPerro__cinco {
-    margin: 0 25px;
-}
 
 .galeriaGato {
     padding: 50px;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     overflow-x: scroll;
     display: flex;
     flex-wrap: nowrap;
     margin: 0 auto;
 }
 
-.galeriaGato__uno {
+.galeriaGato img{
     margin: 0 25px;
+    transition: all 3s;
 }
 
-.galeriaGato__dos {
-    margin: 0 25px;
+
+.galeriaGato img:hover{
+    transform: scale(2);
 }
 
-.galeriaGato__tres {
-    margin: 0 25px;
-}
 
-.galeriaGato__cuatro {
-    margin: 0 25px;
-}
 
-.galeriaGato__cinco {
-    margin: 0 25px;
-}
+
+
+
+
+
+
+
 
 /* MEDIA QUERY */
 
