@@ -99,7 +99,9 @@ h4 {
     font-size: 40px;
 }
 
-
+.botonConocenos:hover {
+    transform: scale(3);
+}
 
 .redes {
     display: flex;
