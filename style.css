@@ -44,11 +44,11 @@ h4 {
 
 .pasosaSeguir {
     padding: 50px;
-    margin: 0 520px;
+    margin: 0 530px;
     border-style: solid;
     color: rgb(88, 0, 100);
     background-color: bisque;
-    width: 500px;
+    width: 300px;
     display: grid;
     gap: 20px 20px;
     grid-template-columns: 100px;
@@ -59,24 +59,28 @@ h4 {
 
 .pasosaSeguir__selec{
     display: grid;
+    width: 10px;
     font-size: 20px;
     align-items: center;
 }
 
 .pasosaSeguir__cant{
     display: grid;
+    width: 10px;
     font-size: 20px;
     align-items: center;
 }
 
 .pasosaSeguir__envio{
     display: grid;
+    width: 10px;
     font-size: 20px;
     align-items: center;
 }
 
 .pasosaSeguir__abona{
     display: grid;
+    width: 10px;
     font-size: 20px;
     align-items: center;
 }
@@ -110,24 +114,17 @@ h4 {
 
 .redes {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
-.redes__ig {
-    padding: 150px;
+.redes img {
     display: flex;
-    justify-content: space-between;
     height: 150px;
     width: 150px;
-}
-
-
-.redes__fb {
-    padding: 150px;
-    display: flex;
+    margin: 0 150px;
+    padding: 10px;
     justify-content: space-between;
-    height: 150px;
-    width: 150px;
+    
 }
 
 
@@ -135,7 +132,7 @@ h4 {
 .logoPrincipal {
     width: 800px;
     height: 100%;
-    margin: 0 400px;
+    margin: 0 280px;
     padding: 100px;
     display: flex;
     justify-items: center;
@@ -155,7 +152,8 @@ h4 {
 
 
 .imagenMarca {
-    padding: 150px;
+    padding: 40px;
+    margin: 0 320px;
     display: flex;
     justify-content: space-between;
     height: 250px;
