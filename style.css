@@ -115,16 +115,24 @@ h4 {
 .redes {
     display: flex;
     justify-content: space-between;
+    width: 30%;
 }
 
-.redes img {
+.redesIg {
     display: flex;
     height: 150px;
     width: 150px;
     margin: 0 150px;
-    padding: 10px;
-    justify-content: space-between;
+   
+}
+
+.redesFb {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    margin: 0 150px;
     
+
 }
 
 
