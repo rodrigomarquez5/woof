@@ -195,7 +195,8 @@ h4 {
 
 .listaContactos {
     display: flex;
-    justify-content: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
     padding: 20px;
     border-style: solid;
     color: rgb(88, 0, 100);
@@ -204,9 +205,14 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.mb-3{
+    padding: 20px;
+    margin-top: 50px;
+}
 
 .listaHorarios {
     display: flex;
+    margin-top: 50px;
     justify-content: center;
     padding: 20px;
     border-style: solid;
@@ -218,7 +224,7 @@ h4 {
 
 
 .descContacto {
-    padding: 50px;
+    padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
     display: flex;
@@ -289,6 +295,9 @@ h4 {
     transform: scale(2);
 }
 
+.mb-3 {
+    background-color: bisque;
+}
 
 
 
@@ -385,5 +394,26 @@ h4 {
     .galeriaPerro{
         margin: 0 200px;
     }
+
+   .divHorarios{
+        width: fit-content;
+
+   }
+
+   .divContactos{
+        padding: 50px;
+        width: fit-content;
+   }
+
+   .listaContactos {
+        margin:0 150px ;
+        width: 100%;
+   }
+
+   .listaHorarios {
+    margin:0 200px ;
+    width: 100%;
+}
+
 
 }
