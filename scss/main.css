@@ -208,15 +208,6 @@ h4 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.descContacto {
-  padding: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: larger;
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-}
-
 .sugerenciaTransp {
   margin-top: 30px;
   display: flex;
@@ -299,8 +290,6 @@ h4 {
     padding: 0 300px;
   }
   h1 {
-    justify-content: center;
-    align-items: center;
     margin: 10px 250px;
     font-size: 100px;
     padding: 200px;
@@ -312,10 +301,6 @@ h4 {
     font-size: 40px;
   }
   h2 {
-    text-align: center;
-    /*   justify-content: center;
-      justify-items: center ;
-      align-items: center; */
     font-size: 40px;
     margin: 0 300px;
     padding: 80px;

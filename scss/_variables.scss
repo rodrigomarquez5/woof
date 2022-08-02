@@ -1,0 +1,20 @@
+$colores: (
+    "color-principal": rgba(93, 58, 223, 0.411),
+    "color-secundario":rgb(38, 4, 65),
+);
+
+
+
+
+
+
+/* extends */
+%galerias {
+  padding: 50px;
+  width: 400px;
+  height: 400px;
+  overflow-x: scroll;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+}
