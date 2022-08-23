@@ -1,0 +1,27 @@
+.galeriaGato {
+    @extend %galerias;
+}
+
+.galeriaGato img {
+    margin: 0 25px;
+    transition: all 3s;
+}
+
+
+.galeriaGato img:hover {
+    transform: scale(2);
+}
+
+.galeriaGato2 {
+    @extend %galerias;
+}
+
+.galeriaGato2 img {
+    margin: 0 25px;
+    transition: all 3s;
+}
+
+
+.galeriaGato2 img:hover {
+    transform: scale(2);
+}

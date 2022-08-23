@@ -4,7 +4,11 @@
 }
 
 body {
+<<<<<<< HEAD
     background-color: map-get($colores, "$color-principal");
+=======
+    background-color: rgb(180, 180, 248)
+>>>>>>> develop
 }
 
 
@@ -52,7 +56,11 @@ h4 {
     height: 150px;
     width: 150px;
     margin: 0 150px;
+<<<<<<< HEAD
    
+=======
+
+>>>>>>> develop
 }
 
 .redesFb {
@@ -85,12 +93,19 @@ h4 {
 
 
 .imagenMarca {
+<<<<<<< HEAD
     padding: 40px;
     margin: 0 320px;
     display: flex;
     justify-content: space-between;
     height: 250px;
     width: 250px;
+=======
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    width: 50px;
+>>>>>>> develop
 }
 
 .whatsapp {
@@ -103,20 +118,31 @@ h4 {
 
 /* MEDIA QUERY */
 
+<<<<<<< HEAD
 @media screen and (max-width: 320px) {
+=======
+@media screen and (max-width: 430px) {
+>>>>>>> develop
     body {
         background-color: rgb(201, 196, 196);
     }
 
     .logoPrincipal {
+<<<<<<< HEAD
         margin: 10px 140px;
         width: 600px;
         height: 600px;
+=======
+        margin: 10px 30px;
+        width: 400px;
+        height: 400px;
+>>>>>>> develop
         display: flex;
         justify-items: center;
         align-items: center;
     }
 
+<<<<<<< HEAD
 
     .linksPaginas {
         flex-direction: column;
@@ -132,6 +158,25 @@ h4 {
         font-size: 100px;
         padding: 200px;
 
+=======
+    .liPerro-Gato {
+        margin: 10px 40px;
+        width: fit-content;
+        height: 100px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+
+    }
+
+    h1 {
+        margin: 10px 40px;
+        width: 400px;
+        height: 100px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+>>>>>>> develop
     }
 
 
@@ -142,6 +187,7 @@ h4 {
         font-size: 40px;
     }
 
+<<<<<<< HEAD
     h2{
         justify-content: center;
         justify-items: center ;
@@ -153,10 +199,18 @@ h4 {
 
     h3{
         font-size: 35px;
+=======
+    h2 {
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        font-size: 20px;
+>>>>>>> develop
         margin: 0 100px;
         padding: 80px;
     }
 
+<<<<<<< HEAD
     h4{
         font-size: 30px;
         padding: 50px;
@@ -164,11 +218,34 @@ h4 {
     
     .pasosaSeguir{
         margin: 10px 250px;
+=======
+    h3 {
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        font-size: 20px;
+        margin: 0 30px;
+        padding: 80px;
+    }
+
+    h4 {
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        font-size: 20px;
+        margin: 0 30px;
+        padding: 80px;
+    }
+
+    .pasosaSeguir {
+
+>>>>>>> develop
         padding: 50px;
         width: 300px;
         height: 350px;
     }
 
+<<<<<<< HEAD
     .imagenMarca{
 
         margin: 10px 130px;
@@ -207,6 +284,101 @@ h4 {
     margin:0 200px ;
     width: 100%;
 }
+=======
+    .imagenMarca img {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-items: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+
+
+    .imagenMarca {
+        width: 150px;
+        height: 150px;
+        display: flex;
+    }
+
+
+
+    .galeriaGato {
+        margin: 0 20px;
+    }
+
+    .galeriaGato2 {
+        margin: 0 20px;
+    }
+
+    .galeriaPerro {
+        margin: 0 50px;
+    }
+
+    .galeriaPerro2 {
+        margin: 0 50px;
+    }
+
+    .divHorarios {
+        width: fit-content;
+
+    }
+
+    .liMail {
+        font-size: 15px;
+        height: 30px;
+        display: flex;
+    }
+
+    .liTel {
+        font-size: 15px;
+        height: 30px;
+        display: flex;
+    }
+
+    .listaContactos {
+        width: fit-content;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .listaHorarios {
+        width: fit-content;
+        height: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .redes {
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        display: flex;
+
+    }
+
+    .redesIg {
+        margin: 0%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .redesFb {
+        margin: 0 10px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+
+>>>>>>> develop
 
 
 }

@@ -1,0 +1,29 @@
+.galeriaPerro {
+    @extend %galerias;
+}
+
+
+.galeriaPerro img:hover {
+    transform: scale(2);
+    transition: all 3s;
+}
+
+.galeriaPerro img {
+    margin: 0 25px;
+    transition: all 3s;
+}
+
+.galeriaPerro2 {
+    @extend %galerias;
+}
+
+
+.galeriaPerro2 img:hover {
+    transform: scale(2);
+    transition: all 3s;
+}
+
+.galeriaPerro2 img {
+    margin: 0 25px;
+    transition: all 3s;
+}
