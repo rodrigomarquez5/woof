@@ -1,0 +1,88 @@
+.boton {
+    text-decoration: none;
+    background-color: blanchedalmond;
+    font-weight: 800;
+    font-size: larger;
+    margin-top: 100px;
+    padding: 0 20px;
+    width: fit-content;
+    border: hidden rgba(255, 235, 205, 0.692) 3px;
+    transition: all 2s;
+}
+
+.botonConocenos {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.boton:hover {
+    transform: scale(1, 3);
+    transform: rotateY(360deg);
+}
+
+.imagenMarca {
+    padding: 40px;
+    margin: 0 320px;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    width: 250px;
+}
+
+.pasosaSeguir {
+    padding: 50px;
+    margin: 0 530px;
+    border-style: solid;
+    color: rgb(88, 0, 100);
+    background-color: bisque;
+    width: 300px;
+    display: grid;
+    gap: 20px 20px;
+    grid-template-columns: 100px;
+    grid-template-rows: 50px 50px 50px 50px;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pasosaSeguir__selec {
+    display: grid;
+    width: 10px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.pasosaSeguir__cant {
+    display: grid;
+    width: 10px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.pasosaSeguir__envio {
+    display: grid;
+    width: 10px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.pasosaSeguir__abona {
+    display: grid;
+    width: 10px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.liPerro-Gato {
+    margin-top: 20px;
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkGato {
+    @extend %linkperrogato;
+}
+
+.linkPerro {
+    @extend %linkperrogato;
+}
